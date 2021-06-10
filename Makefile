@@ -2,6 +2,8 @@ install:
 	poetry install
 brain-games:
 	poetry run brain-game
+brain-even:
+	poetry run brain-even
 build:
 	poetry build
 publish:
