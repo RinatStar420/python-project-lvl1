@@ -3,4 +3,3 @@ dist/
 .idea
 *.pyc
 *.swp
-test.py
