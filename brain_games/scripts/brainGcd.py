@@ -1,4 +1,3 @@
-
 import random
 import math
 from brain_games.cli import welcome_user
@@ -19,7 +18,8 @@ def start_game(username):
             if counter == 3:
                 print(f'Congratulations, {username}!')
         else:
-            print(f"Your answer: {player_answer}\n{player_answer} is wrong answer ;(. Correct answer was {answer}.\nLet's try again, {username}!")
+            print(
+                f"Your answer: {player_answer}\n{player_answer} is wrong answer ;(. Correct answer was {answer}.\nLet's try again, {username}!")
 
 
 def main():
@@ -31,4 +31,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
