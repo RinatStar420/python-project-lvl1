@@ -3,3 +3,4 @@ ignore =
     E501
 per-file-ignores =
     brainEven.py: C901
+    brainPrime.py: C901
